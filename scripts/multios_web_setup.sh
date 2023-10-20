@@ -1,14 +1,6 @@
 #!/bin/bash
 
 
-#Deploy 4 EC2 Instances on AWS. One Ubuntu as the Master and Three as Targets [A mix of Ubuntu and AWS Linux 2023]
-#Change the Hostname for each of the VMs and map their hostnames to an IP address.
-#SSH Into each EC2 using their hostnames, create a user on each VM, and add the user to the visudo file with a NOPASSWD option. For the Ubuntu VM, edit the sshd_config file to allow Password authentication. NB: Do the same for the Amazon Linux 2023 VM.
-#Generate an SSH Key on the Master VM and copy it to all three VMs.
-#Download the scripts here: https://github.com/seunayolu/bash-git-repo.git and deploy the scripts on all three VMs from the Master VM.
-
-
-
 #Variable Declaration
 URL='https://www.tooplate.com/zip-templates/2093_flight.zip'
 ART_NAME='2093_flight'
